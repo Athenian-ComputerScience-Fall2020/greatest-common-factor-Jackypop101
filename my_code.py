@@ -1,14 +1,16 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
 #  Jonah explained some of the concepts to me. 
 
-def find_gcf(x,y):   # Do not change function name!
+   # Do not change function name!
     # User code goes here
-    #if __name__ == '__main__':
+def find_gcf(x,y):
     gcf=0
     for i in range(1,y):
         if x % (i + 1) == 0 and y % (i + 1) == 0:
             gcf = i + 1 
     return(gcf)
+
+    #if __name__ == '__main__':
 
 x = int(input("Enter a number: "))
 y = int(input("Enter another number: "))
