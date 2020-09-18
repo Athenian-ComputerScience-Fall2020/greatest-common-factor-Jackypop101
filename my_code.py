@@ -3,18 +3,18 @@
 
    # Do not change function name!
     # User code goes here
+gcf=0
 def find_gcf(x,y):
-    gcf=0
-    for i in range(1,y):
-        if x % (i + 1) == 0 and y % (i + 1) == 0:
-            gcf = i + 1 
+    for i in range(1,y+1):
+        if x % (i) == 0 and y % (i) == 0:
+            gcf = i
     return(gcf)
 
-    #if __name__ == '__main__':
+if __name__ == '__main__':
 
-x = int(input("Enter a number: "))
-y = int(input("Enter another number: "))
-print(find_gcf(x,y))
+    x = int(input("Enter a number: "))
+    y = int(input("Enter another number: "))
+    print(find_gcf(x,y))
 
 
     
