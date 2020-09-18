@@ -1,5 +1,5 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-#  Jonah explained some of the concepts to me. 
+#  Jonah explained some of the concepts to me and also Megan. 
 
    # Do not change function name!
     # User code goes here
